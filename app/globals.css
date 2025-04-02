@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #6b7280;
+}
+
+/* Your additional custom CSS */
+.bg-primary-color {
+  background-color: var(--primary-color);
+}
+
+.text-primary-color {
+  color: var(--primary-color);
+}
